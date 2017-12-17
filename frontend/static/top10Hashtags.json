@@ -1,0 +1,101 @@
+{
+  "nodes": [
+    {
+      "_id": "59da113351c2cf197428e28e",
+      "hashtag": "blockchain",
+      "occurence_count": 354
+    },
+    {
+      "_id": "59da113351c2cf197428e28d",
+      "hashtag": "anryze",
+      "occurence_count": 35
+    },
+    {
+      "_id": "59da113251c2cf197428e28b",
+      "hashtag": "iot",
+      "occurence_count": 26
+    },
+    {
+      "_id": "59da113451c2cf197428e290",
+      "hashtag": "bitcoin",
+      "occurence_count": 45
+    },
+    {
+      "_id": "59da113651c2cf197428e299",
+      "hashtag": "ethereum",
+      "occurence_count": 22
+    },
+    {
+      "_id": "59da113a51c2cf197428e2a5",
+      "hashtag": "fintech",
+      "occurence_count": 27
+    },
+    {
+      "_id": "59da113f51c2cf197428e2ab",
+      "hashtag": "crypto",
+      "occurence_count": 24
+    },
+    {
+      "_id": "59da114451c2cf197428e2b0",
+      "hashtag": "ico",
+      "occurence_count": 39
+    },
+    {
+      "_id": "59da114551c2cf197428e2b3",
+      "hashtag": "cryptocurrency",
+      "occurence_count": 36
+    },
+    {
+      "_id": "59da11f651c2cf197428e3fb",
+      "hashtag": "micromoney",
+      "occurence_count": 45
+    }
+  ],
+  "edges": [
+    {
+      "source": 0,
+      "target": 1,
+      "occurance": 2
+    },
+    {
+      "source": 0,
+      "target": 2,
+      "occurance": 2
+    },
+    {
+      "source": 0,
+      "target": 3,
+      "occurance": 2
+    },
+    {
+      "source": 0,
+      "target": 4,
+      "occurance": 2
+    },
+    {
+      "source": 0,
+      "target": 5,
+      "occurance": 2
+    },
+    {
+      "source": 0,
+      "target": 6,
+      "occurance": 2
+    },
+    {
+      "source": 0,
+      "target": 7,
+      "occurance": 2
+    },
+    {
+      "source": 0,
+      "target": 8,
+      "occurance": 2
+    },
+    {
+      "source": 0,
+      "target": 9,
+      "occurance": 2
+    }
+  ]
+}

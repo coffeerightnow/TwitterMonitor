@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<div id="view-1-description">
+    <h2 id="view-1-title">TOP 10 HASHTAGS LINKED TO #BLOCKCHAIN</h2>
+    <div>
+        <p>This graph represents the tweets grouped by a hashtag that has been used in the same tweet together with the hashtag
+            "#blockchain". It aims to show which topics, with a
+            connection to the blockchain technology, are currently discussed the most on twitter.
+        </p>
+        <p> The data has been captured since October 2017.</p>
+        <p>
+            <ul>
+                <li>Click on the red bubbles to see which other hashtags are mostly used in the same tweet.
+                    <br>So all tweets of each child node have at least all the hashtags of its parent(s) node inside.
+                </li>
+                <li>Move the slider to limit the number of child nodes displayed.</li>
+                <li>Enter one from over 1'000 hashtags in the searchbar and see what other hashtags
+                    have been used the most in the same tweet (and inherently also with #blockchain).</li>
+            </ul>
+        </p>
+        <div id="flex-container" class="flex-container">
+            <input type="text" id="searchbar" list="json-datalist" placeholder="Loading Data..." title="Enter a hashtag topic and hit 'GO'."><button onclick="getNodesByInput()">GO</button>
+        </div>
+           <datalist id="json-datalist"></datalist>
+    </div>
+    <div id="slider-container-1">
+        <span class="left"><b>1</b></span>
+        <span class="center" id="current-slider-1-value"><b>10</b></span>
+        <span class="right" id="slider-max-value"><b>50</b></span>
+        <input type="range" min="1" max="50" value="10" class="slider" id="slider-1" title="Limits the number of child nodes.">
+    </div>
+    <div id="svg-container-1"></div>
+</div>
+<div id="view-2-description">
+    <h2 id="view-title-2">TOP 5 HASHTAGS LINKED TO #BLOCKCHAIN</h2>
+    <div>
+        <p>This timeline represents the amount of daily tweets grouped by most popular hashtags used in the same tweets with the hasthag blockchain.
+            This graphs aims to help recognize current trends of the most important topics around blockchain & co.
+        </p>
+        <p><b>Important disclaimer:</b> there have been several disruptions during the ongoing collection of tweets. The graph is therefore not perfectly representative.
+        <br>The extreme negative spikes indicate said disruptions.</p>
+    </div>
+    <div id="slider-container-2">
+        <span class="left"><b>1</b></span>
+        <span class="center" id="current-slider-2-value"><b>5</b></span>
+        <span class="right"><b>20</b></span>
+        <input type="range" min="1" max="20" value="5" class="slider" id="slider-2">
+    </div>
+    <div id="svg-container-2"></div>
+</div>
+</html>

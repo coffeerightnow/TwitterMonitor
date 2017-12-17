@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <title>Blockchain Media Monitor</title>
+    <script src="frontend/static/jquery-3.2.1.min.js" defer></script>
+    <script src="frontend/static/d3.js" defer></script>
+    <script src="frontend/init_frontend.js" defer></script>
+    <link rel="stylesheet" href="frontend/static/style1.css">
+    <link rel="icon" href="http://127.0.0.1:5000/frontend/static/images/favicon-32x32.png">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans">
+
+</head>
+<body>
+<header id="menu">
+        <div></div>
+    <div id="tweet-counter" title="Number of tweets stored so far."></div>
+    <div id="title"><h1>BLOCKCHAIN MEDIA MONITOR</h1></div>
+</header>
+<!-- View Navigation -->
+<div id="view-navigator">
+    <ul class="ex-bar-nav">
+        <li id="view1" class="ex-bar-item " title="Interactive Graph which display .">
+            <div class="ex-bar-content">Connection View</div>
+            <a href="#" target="_blank" class="ex-bar-link hover-bar">
+                <span class="ex-bar-bar active"></span>
+            </a>
+        </li>
+        <li id="view2" class="ex-bar-item" title="Timeline of daily tweets with a the hashtag blockchain.">
+            <div class="ex-bar-content">Trend View</div>
+            <a href="#" target="_blank" class="ex-bar-link">
+                <span class="ex-bar-bar"></span>
+            </a>
+        </li>
+    </ul>
+</div>
+<div id="included-description"></div>
+</body>
+</html>

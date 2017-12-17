@@ -1,0 +1,7 @@
+*.pyc
+.idea/
+*.iml
+*.log
+.cache/
+.dist/
+*.egg-info
