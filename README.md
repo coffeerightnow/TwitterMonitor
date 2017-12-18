@@ -4,17 +4,20 @@ Twitter Media Monitor
 About
 --------
 Twitter Media Monitor is an Webapplication to capture and visualize Relations between Hashtags as a Graph.
-Furthermore it provides a view with quantity statistics.
+Furthermore it provides a view with quantity statistics. The figure below shows an example of the two main views.
+
+![Preview Apllication GUI](https://github.com/coffeerightnow/TwitterMonitor/blob/master/UML/Preview.jpg)
+
 
 Requirements
 -------------------
-Python >= V 3.5.2  - Tested with this version. May work properly with other V3.x
-MongoDB server >= 3.4.9 
+- Python >= V 3.5.2  - Tested with this version. May work properly with other V3.x
+- MongoDB server >= 3.4.9 
 
 Installation
 ----------------
 
-You canclone the repository from
+You can clone the repository from
 Github and install it manually:
 
     git clone https://github.com/coffeerightnow/TwitterMonitor.git
